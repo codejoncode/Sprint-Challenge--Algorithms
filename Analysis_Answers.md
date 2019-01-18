@@ -7,11 +7,12 @@ Add your answers to the questions below.
    Other hints, to save you some searching:
 
    * Heap insert: `O(log n)`
-   * Heap delete: `O(log n)`
+   * Heap delete: `O(log n)` 
    * Heap get max: `O(1)`
+   * Heap sort is O(n log(n)) 
 
 2. Could one make your algorithm run in better time? If so, how? If not, why
-   not?
+   not?  No because we have to sort the data. Sorting this data does not allow us to have a faster run time. 
 
 3. What is the space complexity of your `heapsort` function? Recall that your
    implementation should return a new array with the sorted data. (Also remember
